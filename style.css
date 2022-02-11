@@ -1,1 +1,50 @@
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+}
+.img-wrapper{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+.img-wrapper img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.5;
+}
+.banner{
+    position: absolute;
+    top: 30%;
+    left: 15%;
+}
+.banner h1{
+    color: white;
+    font-size: 4rem;
+    font-weight: 200;
+    text-shadow: .3rem .4rem 2px rgba(0, 0, 0, 0.4);
+    margin-bottom: 2rem;
+}
+.banner p{
+    color: white;
+    font-size: 2rem;
+    text-shadow: .3rem .4rem rgba(0, 0, 0, 0.4);
+    margin-bottom: 2rem;
+}
+.banner button{
+    color: black;
+    background: #8E2DE2;
+    background: -webkit-linear-gradient(to right, #4A00E0, #8E2DE2);
+    background: linear-gradient(to right, #4A00E0, #8E2DE2);
+    padding: 1rem 2rem;
+
+}
