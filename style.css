@@ -41,10 +41,18 @@ header{
     margin-bottom: 2rem;
 }
 .banner button{
-    color: black;
+    color: white;
     background: #8E2DE2;
+    letter-spacing: .1rem;
     background: -webkit-linear-gradient(to right, #4A00E0, #8E2DE2);
     background: linear-gradient(to right, #4A00E0, #8E2DE2);
     padding: 1rem 2rem;
+    border:  none;
+    border-radius: 5px;
+    cursor: pointer;
 
+}
+.banner button:hover{
+    opacity: 0.8;
+    color: black;
 }
