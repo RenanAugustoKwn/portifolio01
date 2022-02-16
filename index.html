@@ -177,21 +177,47 @@
                 <h1>Contato</h1>
                 <form>
                     <div class="input-group">
-                        <input type="text" class="fild">
-                        <label class="filed-label">Nome</label>
+                        <input type="text" class="field">
+                        <label class="field-label">Nome</label>
                     </div>
                     <div class="input-group">
-                        <input type="text" class="fild">
-                        <label class="filed-label">Email</label>
+                        <input type="text" class="field">
+                        <label class="field-label">Email</label>
                     </div>
                     <div class="input-group">
-                        <textarea class="fild"></textarea>
-                        <label class="filed-label">Mensagem</label>
+                        <textarea class="field"></textarea>
+                        <label class="field-label">Mensagem</label>
                     </div>
-                    <button type="submit">Enviar</button>
+                    <button type="submit" class="btn-submit">Enviar</button>
                 </form>
-
             </div>
+        </div>
+    </section>
+    <div class="orcamento-header">
+        <h1>Faça um orçamento</h1>
+    </div>
+    <section class="sessao-orcamento">
+        <div class="orcamento-wrapper">
+            <form>
+                <label for="qtde"></label>
+                <input type="text" name="qtde" id="qtde">
+                <label for="js">Preciso de um script JS</label>
+                <input type="checkbox" name="js" id="js">
+                <label for="Layout"></label>
+                <div class="group-layout">
+                    <div>
+                        <input type="radio" name="layout" id="layout-sim">
+                        <label for="layout-sim">Preciso de um layout</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="layout" id="layout-nao">
+                        <label for="layout-nao">Ja tenho um layout</label>
+                    </div>
+                </div>
+                <label for="prazo">Prazo</label>
+                <input type="range" name="prazo" id="prazo">
+                <button class="btn-orcamento" typy="submit">Enviar</button>
+            </form>
         </div>
     </section>
     </div>
