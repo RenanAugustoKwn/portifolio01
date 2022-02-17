@@ -418,8 +418,8 @@ header{
     align-items: center;
 }
 .orcamento-wrapper{
-    width: 60%;
-    height: 80%;
+    width: 50%;
+    height: 60%;
     background-color: rgb(248, 248, 248);
     border-radius: 5px;
     box-shadow: 0 2rem 5rem rgba(0, 0, 0, .5);
@@ -435,4 +435,28 @@ header{
     border-bottom: solid 3px black;
     font-size: 3rem;
     top: -20rem;
+}
+.sessao-orcamento form{
+    margin: 4rem;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    column-gap: 2rem;
+    row-gap: 2.5rem;
+}
+.sessao-orcamento label{
+    font-size:  1.5rem;
+    font-weight: bold;
+}
+.sessao-orcamento input[type = "number"]{
+    width: 4rem;
+    font-size: 2rem;
+    outline: none;
+    border-radius: 10px;
+    padding: 0.3rem;
+}
+.btn-orcamento{
+    text-transform: uppercase;
+    padding: 1rem;
+    cursor: pointer;
+    grid-column: 2;
 }
